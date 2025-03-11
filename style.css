@@ -63,7 +63,7 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #111;
+    background: #fdfbfb;
     transform: translateX(-50%);
 }
 section .title::after{
@@ -96,7 +96,7 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #0e0c0c;
+    color: #fdfafa;
     font-size: 35px;
     font-weight: 600;
 }
@@ -113,7 +113,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #0c0202;
+    color: #f6f0f0;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -165,10 +165,9 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/IMG_20240418_175509.jpg") no-repeat center;
+    background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
-  
-    color: #090505;
+    color: #f0ebeb;
     min-height: 500px;
     background-size:cover;
     background-attachment: fixed;
